@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void swapFunction(int *a, int *b)
+void swap(int *a, int *b)
 {
     int temp = *a;
     *a = *b;
@@ -16,7 +16,7 @@ void bubbleSort(int arr[], int size)
         {
             if (arr[j] > arr[j + 1])
             {
-                swapFunction(&arr[j], &arr[j + 1]);
+                swap(&arr[j], &arr[j + 1]);
                 swapped = 1;
             }
         }
@@ -27,14 +27,12 @@ void bubbleSort(int arr[], int size)
     }
 }
 
-int main()
-{
-    int arr[] = {3, 8, 1, 6, 5, 9, 2};
+int main(){
+    int arr[] = {1,6,2,4,9,7,3,0};
     int size = sizeof(arr) / sizeof(arr[0]);
     bubbleSort(arr, size);
-    printf("sorted arr: ");
-    for (int i = 0; i < size; i++)
-    {
+    printf("sorted array: ");
+    for (int i = 0; i < size; i++){
         printf("%d, ", arr[i]);
     }
     getch();
