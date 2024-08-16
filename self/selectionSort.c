@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void swapFunction(int *a, int *b)
+void swap(int *a, int *b)
 {
     int temp = *a;
     *a = *b;
@@ -19,22 +19,20 @@ void selectionSort(int arr[], int size)
                 minIndex = j;
             }
         }
-
         if (minIndex != i)
         {
-            swapFunction(&arr[i], &arr[minIndex]);
+            swap(&arr[i], &arr[minIndex]);
         }
     }
 }
 
 int main()
 {
-    int arr[] = {3, 9, 2, 8, 0, 1, 7, 4, 6, 3, 5};
+    int arr[] = {1, 6, 2, 4, 9, 7, 3, 0};
     int size = sizeof(arr) / sizeof(arr[0]);
     selectionSort(arr, size);
-    printf("sorted arr: ");
-    for (int i = 0; i < size; i++)
-    {
+    printf("sorted array= ");
+    for (int i = 0; i < size; i++){
         printf("%d, ", arr[i]);
     }
     getch();
