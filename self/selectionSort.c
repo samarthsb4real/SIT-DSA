@@ -9,7 +9,7 @@ void swap(int *a, int *b)
 
 void selectionSort(int arr[], int size)
 {
-    for (int i = 0; i < size - 1; i++)
+    for (int i = 0; i < size; i++)
     {
         int minIndex = i;
         for (int j = i + 1; j < size; j++)
@@ -28,10 +28,10 @@ void selectionSort(int arr[], int size)
 
 int main()
 {
-    int arr[] = {1, 6, 2, 4, 9, 7, 3, 0};
+    int arr[] = {9, 4, 2, 0, 5, 3, 1, 8, 7};
     int size = sizeof(arr) / sizeof(arr[0]);
     selectionSort(arr, size);
-    printf("sorted array= ");
+    printf("sorted array: ");
     for (int i = 0; i < size; i++)
     {
         printf("%d, ", arr[i]);
