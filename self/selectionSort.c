@@ -32,7 +32,8 @@ int main()
     int size = sizeof(arr) / sizeof(arr[0]);
     selectionSort(arr, size);
     printf("sorted array= ");
-    for (int i = 0; i < size; i++){
+    for (int i = 0; i < size; i++)
+    {
         printf("%d, ", arr[i]);
     }
     getch();
