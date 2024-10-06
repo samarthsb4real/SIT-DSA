@@ -8,7 +8,7 @@ struct student
     struct student *link;
 } *start;
 
- main()
+ int main()
 {
     int choice, n, i, data;
     start = NULL;
