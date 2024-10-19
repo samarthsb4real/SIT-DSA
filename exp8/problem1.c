@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Define the structure for an adjacency list node
+// Define the structure for an Adjacency List node
 struct AdjListNode {
     int dest;
     struct AdjListNode* next;
