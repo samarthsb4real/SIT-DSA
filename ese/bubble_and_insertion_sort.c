@@ -53,5 +53,6 @@ int main()
     printf("Sorted array (Insertion Sort): ");
     printArray(arr2, n);
 
+    getch();
     return 0;
 }
