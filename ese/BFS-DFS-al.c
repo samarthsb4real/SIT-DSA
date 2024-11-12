@@ -69,5 +69,6 @@ int main() {
     } else {
         printf("Invalid choice\n");
     }
+    getch();
     return 0;
 }
