@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "n:/sit/labs/dsa/experiments/exp6",
-      "program": "n:/sit/labs/dsa/experiments/exp6/build/Debug/outDebug",
+      "cwd": "n:/sit/labs/dsa/exp6",
+      "program": "n:/sit/labs/dsa/exp6/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
