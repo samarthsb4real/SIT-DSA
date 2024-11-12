@@ -83,5 +83,6 @@ int main()
     printf("Array after Quick Sort: ");
     printArray(arr2, n);
 
+    getch();
     return 0;
 }
