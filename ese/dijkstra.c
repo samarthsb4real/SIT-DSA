@@ -28,5 +28,6 @@ void dijkstra(int graph[V][V], int src) {
 int main() {
     int graph[V][V] = {{0, 9, 0, 0, 6}, {9, 0, 5, 0, 0}, {0, 5, 0, 2, 0}, {0, 0, 2, 0, 3}, {6, 0, 0, 3, 0}};
     dijkstra(graph, 0);
+    getch();
     return 0;
 }
