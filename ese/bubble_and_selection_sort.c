@@ -52,5 +52,6 @@ int main()
     printf("Sorted array (Selection Sort): ");
     printArray(arr2, n);
 
+    getch();
     return 0;
 }
