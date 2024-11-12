@@ -39,6 +39,7 @@ int main() {
         printf("Binary Search: Element found at index %d\n", bin_result);
     else
         printf("Binary Search: Element not found\n");
-    
+
+    getch();    
     return 0;
 }
